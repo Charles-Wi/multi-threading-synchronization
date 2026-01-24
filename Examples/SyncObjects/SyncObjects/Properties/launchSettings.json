@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SyncObjects": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
