@@ -12,7 +12,7 @@ namespace SyncObjects
     {
         const int N = 5_000;
         static Queue<Data> _queue = new Queue<Data>();
-        static object _lock = new Object();
+        static Lock _lock = new();
         static SpinLock _spinlock = new SpinLock();
         static int numberOfThreads = 400;
         private Action[] actionsWithSpinLock = new Action[numberOfThreads];
